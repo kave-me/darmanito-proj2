@@ -1,5 +1,9 @@
 @import './base/base';
+@import './components/nav';
 
 body {
-    background-color: $primary-color;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-size: 16px;
 }
