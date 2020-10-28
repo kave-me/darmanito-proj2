@@ -37,6 +37,13 @@ nav.nav-rtl {
   font-weight: bold;
 }
 
+.faq__header {
+  background-color: #0089FF;
+  color: white;
+  text-align: justify;
+  height: 10rem;
+}
+
 body {
   padding: 0;
   margin: 0;
