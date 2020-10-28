@@ -3,3 +3,16 @@ $primary-color: #0089FF;
 $secondary-color: #E6F3FF;
 $tertiary-color: #00DE9A;
 $title-color: #2361B5;
+
+@mixin icon_box_shadow {
+    box-shadow: 0 0 15px rgba(0,137,255,0.3);
+    border-radius: 10px;
+}
+@mixin section_title {
+    text-align: right;
+    font-size: 1rem;
+    border-right: 3px solid $tertiary-color;
+    padding-right: 5px;
+    color: $title-color;
+}
+
