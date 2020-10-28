@@ -125,6 +125,25 @@ nav.nav-rtl {
   direction: rtl;
 }
 
+.support {
+  background-color: #0089FF;
+  color: white;
+}
+
+.support button, .support button:hover {
+  background-color: #2361B5;
+  color: white;
+}
+
+.support__button {
+  margin-left: 1rem;
+}
+
+.support__text {
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
 body {
   padding: 0;
   margin: 0;

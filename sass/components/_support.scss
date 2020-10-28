@@ -1,0 +1,17 @@
+.support {
+    background-color: $primary-color;
+    color: white;
+    
+}
+.support button, .support button:hover {
+    background-color: $title-color;
+    color: white;
+    
+}
+.support__button{
+    margin-left : 1rem;
+}
+.support__text{
+    gap: 1rem;
+    margin-right : 1rem;
+}
