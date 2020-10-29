@@ -1,0 +1,89 @@
+.footer__c1{
+    gap:1rem;
+}
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    direction: rtl;
+}
+.footer__logo__text p {
+    display: flex;
+    padding:0px;
+    margin:0px;
+}
+.footer__logo__img {
+    width: 2rem;
+    margin: 5px;
+}
+.footer__logo__text p{
+    margin:0;
+    padding:0;
+    font-size: 0.9rem;
+}
+.footer__download__icons {
+    direction: rtl;
+    flex-wrap: wrap;
+    gap:0.3rem;
+}
+.footer__download__icons__icon {
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+    // margin: 1rem;
+}
+.download__pages__list {
+    list-style: none;
+    // line-height: 2rem;
+}
+.download__pages {
+    line-height: 3rem;
+}
+.download__pages__title {
+        padding: 0;
+        margin:0;
+}
+.download__pages__list {
+    list-style: none;
+    // line-height: 2rem;
+    font-size: 0.95rem;
+}
+.download__pages__list__item > a {
+    color: rgb(63, 62, 62);
+    text-decoration: none;
+}
+.download__pages__list__item > a:hover {
+    color: black;
+    border-right: 2px solid $tertiary-color;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+.download__services {
+    line-height: 3rem;
+}
+.download__services__title {
+        padding: 0;
+        margin:0;
+}
+.download__services__list {
+    list-style: none;
+    // line-height: 2rem;
+    font-size: 0.95rem;
+}
+.download__services__list__item > a {
+    color: rgb(63, 62, 62);
+    text-decoration: none;
+}
+.download__services__list__item > a:hover {
+    color: black;
+    border-right: 2px solid $tertiary-color;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
