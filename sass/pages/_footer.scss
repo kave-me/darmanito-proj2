@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     direction: rtl;
 }
 .footer__logo__text p {
@@ -21,21 +21,47 @@
 .footer__logo__text p{
     margin:0;
     padding:0;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+}
+.footer__description {
+    font-size: 0.8rem;
 }
 .footer__download__icons {
     direction: rtl;
     flex-wrap: wrap;
     gap:0.3rem;
 }
-.footer__download__icons__icon {
+.footer__download__icons__bazar, .footer__download__icons__sibApp {
     background-color: black;
     width: 10rem;
     height: 3rem;
-    // margin: 1rem;
+}
+.footer__download__icons__bazar {
+    gap:3px;
+}
+.footer__download__icons__bazar__text {
+    color: white;
+    font-size: 0.85rem;
+}
+.footer__download__icons__bazar__img1 {
+    width: 2rem;
+}
+.footer__download__icons__bazar__img2 {
+    width: 2rem;
+}
+.footer__download__icons__sibApp {
+    margin: 0;
+    padding: 0;
+}
+.footer__download__icons__sibApp__text {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 0.75rem;
 }
 .download__pages__list {
     list-style: none;
+    font-size: 0.8rem;
     // line-height: 2rem;
 }
 .download__pages {
@@ -45,11 +71,7 @@
         padding: 0;
         margin:0;
 }
-.download__pages__list {
-    list-style: none;
-    // line-height: 2rem;
-    font-size: 0.95rem;
-}
+
 .download__pages__list__item > a {
     color: rgb(63, 62, 62);
     text-decoration: none;
@@ -71,8 +93,7 @@
 }
 .download__services__list {
     list-style: none;
-    // line-height: 2rem;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
 }
 .download__services__list__item > a {
     color: rgb(63, 62, 62);
@@ -86,4 +107,3 @@
     font-size: 1rem;
     transition: 0.4s;
 }
-

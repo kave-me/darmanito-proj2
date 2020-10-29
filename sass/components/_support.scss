@@ -9,7 +9,7 @@
     
 }
 .support__button{
-    margin-left : 1rem;
+    margin: 1rem;
 }
 .support__button__img {
     width: 2rem;
@@ -17,4 +17,9 @@
 .support__text{
     gap: 1rem;
     margin-right : 1rem;
+}
+.support__text__title, .support__text__text {
+    margin:0;
+    padding:0;
+    // vertical-align: center;
 }
