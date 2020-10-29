@@ -308,6 +308,26 @@ nav.nav-rtl {
   transition: 0.4s;
 }
 
+.contactUs {
+  margin: 1rem;
+}
+
+.contactUs__img {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.contactUs input, .contactUs textarea {
+  direction: rtl;
+}
+
+.contactUs__form__button {
+  direction: rtl;
+  background-color: white;
+  color: #0089FF;
+  border: 1px solid #0089FF;
+}
+
 body {
   padding: 0;
   margin: 0;

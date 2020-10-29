@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سوالات متداول</title>
+    <title>تماس با ما</title>
 
 
     <!-- Bootstrap CSS -->
@@ -54,117 +54,34 @@
 
         <!-- HEADER -->
         <section class="faq__header d-flex align-items-center justify-content-center row">
-            <h1 class="faq__header__title text-center">سوالات متداول</h1>
+            <h1 class="faq__header__title text-center">تماس با ما</h1>
         </section>
 
-        <!-- MAIN QUESTION -->
-        <div class="main-question">
-            <div class="main-question__header ">
-                <h2>سوال شما درباره کدام سرویس هست؟</h2>
+        <!-- CONTACT US -->
+        <section class="contactUs container row mx-auto text-center">
+
+            <div class="col-md-6">
+                <img src="./assets/map.png" alt="map" class="contactUs__img  mx-auto border rounded img-fluid">
             </div>
-            <div class="main-question__icons">
-                <div class="main-question__icons__icon main-question__icons__icon-disabled">
-                    <img class="main-question__icons__icon__img" src="./assets/services/market.svg" alt="market">
-                    <p class="main-question__icons__icon__text">فروشگاه</p>
-                </div>
-                <div class="main-question__icons__icon main-question__icons__icon-disabled">
-                    <img class="main-question__icons__icon__img" src="./assets/services/schedule.svg" alt="schedule">
-                    <p class="main-question__icons__icon__text">ویزیت آنلاین</p>
-                </div>
-                <div class="main-question__icons__icon main-question__icons__icon-disabled">
-                    <img class="main-question__icons__icon__img" src="./assets/services/pharmacy.svg" alt="pharmacy">
-                    <p class="main-question__icons__icon__text">داروخانه</p>
-                </div>
-                <div class="main-question__icons__icon">
-                    <img class="main-question__icons__icon__img" src="./assets/services/stethoscope.svg"
-                        alt="stethoscope">
-                    <p class="main-question__icons__icon__text">ویزیت آنلاین</p>
-                </div>
-
+            <div class="col-md-6">
+                <form class="contactUs__form text-right">
+                    <div class="form-group text-right">
+                        <label for="contactUS__form__name">نام و نام خانوادگی</label>
+                        <input type="text" class="contactUs__form__name form-control">
+                    </div>
+                    <div class="form-group text-right">
+                        <label for="contactUs__form__emailOrPhone">ایمیل یا شماره همراه</label>
+                        <input type="text" class="contactUs__form__emailOrPhone form-control">
+                    </div>
+                    <div class="form-group text-right">
+                        <label for="contactUs__form__message">پیام شما</label>
+                        <textarea class="contactUs__form__message form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="contactUs__form__button btn btn-primary col-md-12">ارسال پیام</button>
+                </form>
             </div>
-        </div>
-        <!-- QUESTIONS -->
-        <section class="questins">
-            <div class="questions__item card">
-                <div class="questions__item__question d-flex flex-row-reverse card-body" data-toggle="collapse"
-                    href="#question1" aria-expanded="false" aria-controls="question1">
-                    <svg id="q1plus" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                    </svg>
 
-                    <svg id="q1dash" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
-                    </svg>
 
-                    <h3>آیا درمانیتو هزینه ای برای پیداکردن دارو دریافت می کنه؟</h3>
-                </div>
-                <div class="questions__item__answer collapse" id="question1">
-                    <p>بله بستگی به نوع دارو دارد.</p>
-                </div>
-            </div>
-            <div class="questions__item card">
-                <div class="questions__item__question d-flex flex-row-reverse card-body" data-toggle="collapse"
-                    href="#question2" aria-expanded="false" aria-controls="question2">
-                    <svg id="q2plus" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                    </svg>
-
-                    <svg id="q2dash" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
-                    </svg>
-
-                    <h3>آیا درمانیتو هزینه ای برای پیداکردن دارو دریافت می کنه؟</h3>
-                </div>
-                <div class="questions__item__answer collapse" id="question2">
-                    <p>بله بستگی به نوع دارو دارد.</p>
-                </div>
-            </div>
-            <div class="questions__item card">
-                <div class="questions__item__question d-flex flex-row-reverse card-body" data-toggle="collapse"
-                    href="#question3" aria-expanded="false" aria-controls="question3">
-                    <svg id="q3plus" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                    </svg>
-
-                    <svg id="q3dash" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
-                    </svg>
-
-                    <h3>آیا درمانیتو هزینه ای برای پیداکردن دارو دریافت می کنه؟</h3>
-                </div>
-                <div class="questions__item__answer collapse" id="question3">
-                    <p>بله بستگی به نوع دارو دارد.</p>
-                </div>
-            </div>
-            <div class="questions__item card">
-                <div class="questions__item__question d-flex flex-row-reverse card-body" data-toggle="collapse"
-                    href="#question4" aria-expanded="false" aria-controls="question4">
-                    <svg id="q4plus" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                    </svg>
-
-                    <svg id="q4dash" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
-                    </svg>
-
-                    <h3>آیا درمانیتو هزینه ای برای پیداکردن دارو دریافت می کنه؟</h3>
-                </div>
-                <div class="questions__item__answer collapse" id="question4">
-                    <p>بله بستگی به نوع دارو دارد.</p>
-                </div>
-            </div>
         </section>
         <!-- SUPPORT AREA -->
         <section class="support row flex-row-reverse justify-content-center align-items-center">
