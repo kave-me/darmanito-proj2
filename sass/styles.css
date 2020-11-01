@@ -632,6 +632,51 @@ nav.nav-rtl {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .indexHeader__cards__card1 {
+    margin-bottom: 2rem;
+    border: none;
+    -webkit-box-shadow: 0 0 30px rgba(0, 137, 255, 0.2);
+            box-shadow: 0 0 30px rgba(0, 137, 255, 0.2);
+    border-radius: 10px;
+    border-radius: 30px;
+    width: 290px;
+    height: 90px;
+  }
+  .indexHeader__cards__card1__title {
+    font-size: 0.8rem;
+  }
+  .indexHeader__cards__card1__text {
+    font-size: 0.6rem;
+    color: #707070;
+  }
+  .indexHeader__cards__card1__svg {
+    background-color: #0089FF;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .indexHeader__cards__card1__label {
+    background-color: #0089FF;
+    color: white;
+    height: 15px;
+    width: 50px;
+    font-size: 0.6rem;
+  }
+  .indexHeader__title {
+    font-size: 1.5rem;
+  }
+  .indexHeader__input__button {
+    font-size: 0.8rem;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
