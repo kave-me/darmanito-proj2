@@ -1,5 +1,7 @@
-
-
+// .indexHeader {
+//     // display: flex;
+//     // flex-direction: row;
+// }
 .indexHeader__input {
     display: flex;
     justify-content: space-around;
@@ -9,7 +11,6 @@
     width: 100%;
     height: 70px;
     border-radius: 20px;
-
 }
 .indexHeader__title {
     color: $primary-color;
@@ -25,7 +26,7 @@
 }
 .indexHeader__input__button {
     height: 50px;
-    width: 25%;
+    width: 7rem;
 }
 .indexHeader__title
 {
@@ -35,34 +36,33 @@
 
     align-content: space-between;
 }
-.indexHeader__cards__card {
-
+.indexHeader__cards__card1 {
     margin-bottom: 2rem;
     @include icon-box-shadow;
     border-radius: 30px;
-}
-
-.indexHeader__cards__card1 {
     width: 450px;
     height: 100px;
     align-content: center;
 }
 .indexHeader__cards__card2 {
+    margin-bottom: 2rem;
+    @include icon-box-shadow;
+    border-radius: 30px;
     width: 300px;
     height: 90px;
     align-self: center;
     align-content: center;
     opacity: 0.7;
 }
-
 .indexHeader__cards__card3 {
+    margin-bottom: 2rem;
+    @include icon-box-shadow;
+    border-radius: 30px;
     width: 260px;
     height: 80px;
     align-content: center;
     opacity: 0.5;
-
 }
-
 .indexHeader__cards__card1__label {
     background-color: $primary-color;
     color: white;
@@ -87,10 +87,8 @@
     height: 60px;
     width: 60px;
     padding: 1rem;
-    margin-left: 0.5rem;
-    
+    margin-left: 0.5rem;   
 }
-
 .indexHeader__cards__card2__svg {
     background-color: $primary-color;
     color: white;
@@ -193,7 +191,6 @@
     padding-right: 5px;
     color: $title-color;
 }
-
 .indexServices__cards__card__button {
     width: 8rem;
     align-self: center;
@@ -203,4 +200,21 @@
     height: 150px;
     margin: 1rem;
     align-self: center;
+}
+
+@media screen and (max-width:991px)
+{
+    .indexHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    // .indexHeader__description {
+    //     width: 100%;
+    // }
+    .indexHeader__cards__card2 {
+        display: none;
+    }
+    .indexHeader__cards__card3 {
+        display: none;
+    }
 }
