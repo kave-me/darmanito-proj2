@@ -1,7 +1,6 @@
-// .indexHeader {
-//     // display: flex;
-//     // flex-direction: row;
-// }
+.indexHeader {
+    padding-top: 5rem;
+}
 .indexHeader__input {
     display: flex;
     justify-content: space-around;
@@ -14,6 +13,7 @@
 }
 .indexHeader__title {
     color: $primary-color;
+    direction: rtl;
 }
 .indexHeader__input__input:focus {
     outline: none;
@@ -28,16 +28,13 @@
     height: 50px;
     width: 7rem;
 }
-.indexHeader__title
-{
-    direction: rtl;
-}
 .indexHeader__cards {
 
     align-content: space-between;
 }
 .indexHeader__cards__card1 {
     margin-bottom: 2rem;
+    border: none;
     @include icon-box-shadow;
     border-radius: 30px;
     width: 450px;
@@ -46,6 +43,7 @@
 }
 .indexHeader__cards__card2 {
     margin-bottom: 2rem;
+    border: none;
     @include icon-box-shadow;
     border-radius: 30px;
     width: 300px;
@@ -56,6 +54,7 @@
 }
 .indexHeader__cards__card3 {
     margin-bottom: 2rem;
+    border: none;
     @include icon-box-shadow;
     border-radius: 30px;
     width: 260px;
@@ -114,17 +113,25 @@
     height: 40px;
 }
 
+.indexHeader__cards__card1__title {
+    // font-size: 1rem;
+}
+.indexHeader__cards__card1__text {
+    color: rgb(112, 112, 112);
+}
 .indexHeader__cards__card2__title {
     font-size: 1rem;
 }
 .indexHeader__cards__card2__text {
     font-size: 0.8rem;
+    color: rgb(112, 112, 112);
 }
 .indexHeader__cards__card3__title {
     font-size: 0.9rem;
 }
 .indexHeader__cards__card3__text {
     font-size: 0.7rem;
+    color: rgb(112, 112, 112);
 }
 .indexHeader__cards__card1__text__svg {
     color: $tertiary-color;
@@ -136,9 +143,6 @@
     color: $tertiary-color;
 }
 // RIGHT SIDE
-.indexHeader__right {
-}
-
 .indexHeader__text {
     line-height: 3rem;
     
@@ -211,10 +215,22 @@
     // .indexHeader__description {
     //     width: 100%;
     // }
+    .indexHeader__spaceBetween {
+        display: none;
+    }
+    .indexHeader__cards {
+        align-items: center;
+    }
+    .indexHeader__cards__card1 {
+        margin-bottom: 5rem;
+    }
     .indexHeader__cards__card2 {
         display: none;
     }
     .indexHeader__cards__card3 {
         display: none;
+    }
+    .indexHeader__input {
+        margin-bottom: 3rem;
     }
 }
