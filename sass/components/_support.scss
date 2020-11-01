@@ -10,6 +10,7 @@
 }
 .support__button{
     margin: 1rem;
+    border-radius: 10px;
 }
 .support__button__img {
     width: 2rem;
@@ -21,4 +22,9 @@
 .support__text__title, .support__text__text {
     margin:0;
     padding:0;
+}
+@media screen and (max-width:991px) {
+    .support__text {
+        justify-content: center;
+    }
 }
