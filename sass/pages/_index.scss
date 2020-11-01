@@ -154,7 +154,18 @@
 .indexStatics {
     background-color: $primary-color;
     color: white;
+    margin-bottom: 3rem;
 }
+.indexServices__text {
+    margin-bottom: 3rem;
+}
+.indexServices__text__title {
+    @include section-title;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+
+}
+
 .indexStatics__cards__card__number {
     font-size: 2rem;
 }
